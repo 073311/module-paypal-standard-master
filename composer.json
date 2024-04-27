@@ -1,0 +1,21 @@
+{
+    "config": {
+        "autoloader-suffix": "PaypalStandard"
+    },
+    "name": "ievtds/module-paypal-standard",
+    "description": "PayPal Standard app for ievtds",
+    "homepage": "https://ievtds.com",
+    "keywords": [
+        "laravel",
+        "accounting",
+        "invoice",
+        "ievtds",
+        "paypal"
+    ],
+    "license": "GPL-3.0+",
+    "scripts": {
+        "test": [
+            "composer install --prefer-dist --no-interaction --no-scripts --no-suggest --no-progress --no-ansi"
+        ]
+    }
+}
